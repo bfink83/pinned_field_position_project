@@ -1,1 +1,5 @@
-# Pinned Field Position Project
+# NFL Pinned Field Position Analysis
+
+This notebook serves to analyze the optimal strategy to navigate a team being pinned within their own 5 yard line when they have possession. Through a combination of data mining and visualization, the notebook analyzes the proabilities of a possession team's current drive outcomes along with the probabilities of the opponents' possible outcomes on their next drive. The notebook then focuses on whether running or passing the ball is more efficient when running a play from within the possession team's own 5 yard line. Finally, I attempt to develop an optimal strategy to decide between running and passing the ball in order to pick up the first first down of the drive to 'unpin' the possession team. I have also found this initial first down to be critical for a team's success through exploratory data analysis in the notebook.
+
+Written in Python using a Jupyter Notebook. Libraries include os, Pandas, numpy, requests, seaborn, matplotlib, and nfl_data_py. Data sourced through nfl_data_py library.
